@@ -6,10 +6,8 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
 </p>
 
 <p align="center">
-  <img src="output/Steffen Muldbjerg.jpg?raw=true" height="400px" width="50%" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
-  <strong>Photo by Steffen Muldbjerg on Unsplash</strong>
-  <img src="output/Alexander McFeron.jpg?raw=true" height="400px" width="50%" title="Alexander McFeron" alt="Alexander McFeron">
-  <strong>Photo by Alexander McFeron on Unsplash</strong>
+  <img src="output/Steffen Muldbjerg.jpg?raw=true" height="400px" width="50%" title="Photo by Steffen Muldbjerg on Unsplash" alt="Photo by Steffen Muldbjerg on Unsplash">
+  <img src="output/Alexander McFeron.jpg?raw=true" height="400px" width="50%" title="Photo by Alexander McFeron on Unsplash" alt="Photo by Alexander McFeron on Unsplash">
 </p>
 
 
@@ -17,7 +15,7 @@ All the references and licenses are included in end of this page
 
 <h1>How to Use</h1>
 Just follow 5 simple steps :
-
+<br>
 <ul type='square'>
   <li>Download Darknet model cfg and weights from the official YOLO website and convert the Darknet YOLO_v2 model to a Keras model. This is by far the lengthiest step. :weary:</li>
   <li>Save the model in <strong>model_data/</strong> directory. :sparkles:</li>
