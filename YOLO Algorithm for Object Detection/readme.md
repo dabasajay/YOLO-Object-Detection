@@ -4,8 +4,7 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
 <p align="center">
 	<table>
   	<tr>
-  		<img src="output/Alexander McFeron.jpg?raw=true" height="400px" width="400px" title="Alexander McFeron" alt="Alexander McFeron">
-  		<img src="output/Steffen Muldbjerg.jpg?raw=true" height="400px" width="400px" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
+  		<img src="output/Alexander McFeron.jpg?raw=true" height="200px" width="200px" title="Alexander McFeron" alt="Alexander McFeron"><img src="output/Steffen Muldbjerg.jpg?raw=true" height="200px" width="200px" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
   	</tr>
 </table>
 </p>
