@@ -1,6 +1,5 @@
-<h1>Deep-Learning-Projects</h1>
-This repo contains all my deep learning projects.
-
+<h1>Deep Learning Projects</h1>
+This repo contains all my deep learning projects.<br>
 <a href='https://github.com/dabasajay/Deep-Learning-Projects/blob/master/project%20logs.md'>projects logs</a> : contains my progress logs
 
 <h4>Projects:</h4>
