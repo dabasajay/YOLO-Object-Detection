@@ -1,7 +1,7 @@
-><h1>YOLO Algorithm for Object Detection</h1>
+<h1>>YOLO Algorithm for Object Detection</h1>
 In this project, I use YOLO Algorithm trained on COCO Dataset for object detection. I use pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>site</a>.
 <h4>All the references and licenses are included in end of this page</h4>
-><h1>How to Use</h1>
+<h1>>How to Use</h1>
 <h4>Just follow 5 simple steps:</h4>
 <ul type='square'>
   <li>Download Darknet model cfg and weights from the official YOLO website and convert the Darknet YOLO_v2 model to a Keras model. This is by far the lengthiest step :weary:</li>
@@ -11,7 +11,7 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
   <li>Output images will be saved in `output/` directory.:metal:</li>
 </ul>
 <h4>For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.</h4>
-><h1>References:page_facing_up:</h1>
+<h1>References:page_facing_up:</h1>
 The ideas presented in this repo came primarily from the two YOLO papers. The implementation here also took significant inspiration and used many components from <strong>Allan Zelener</strong>'s github repository. The pretrained weights used in this exercise came from the official YOLO website.
 <ul type='square'>
   <li><strong>Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi - </strong><a href='https://arxiv.org/abs/1506.02640'>You Only Look Once: Unified, Real-Time Object Detection (2015)</a></li>
