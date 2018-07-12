@@ -2,14 +2,19 @@
 In this project, I use YOLO Algorithm trained on COCO Dataset for object detection. I use pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>site</a>.
 
 <p align="center">
+  <h4>Examples</h4>
+</p>
+
+<p align="center">
   <img src="output/Alexander McFeron.jpg?raw=true" height="400px" width="50%" title="Alexander McFeron" alt="Alexander McFeron">
   <img src="output/Steffen Muldbjerg.jpg?raw=true" height="400px" width="50%" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
 </p>
 
+
 All the references and licenses are included in end of this page
 
 <h1>How to Use</h1>
-<h4>Just follow 5 simple steps</h4>
+Just follow 5 simple steps :
 <ul type='square'>
   <li>Download Darknet model cfg and weights from the official YOLO website and convert the Darknet YOLO_v2 model to a Keras model. This is by far the lengthiest step. :weary:</li>
   <li>Save the model in <strong>model_data/</strong> directory. :sparkles:</li>
