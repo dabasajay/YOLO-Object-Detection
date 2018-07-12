@@ -2,15 +2,11 @@
 In this project, I use YOLO Algorithm trained on COCO Dataset for object detection. I use pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>site</a>.
 
 <p align="center">
-	<table>
-  	<tr>
-  		<img src="output/Alexander McFeron.jpg?raw=true" height="200px" width="50%" title="Alexander McFeron" alt="Alexander McFeron">
-		<img src="output/Steffen Muldbjerg.jpg?raw=true" height="200px" width="50%" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
-  	</tr>
-</table>
+  <img src="output/Alexander McFeron.jpg?raw=true" height="400px" width="50%" title="Alexander McFeron" alt="Alexander McFeron">
+  <img src="output/Steffen Muldbjerg.jpg?raw=true" height="400px" width="50%" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
 </p>
 
->All the references and licenses are included in end of this page
+All the references and licenses are included in end of this page
 
 <h1>How to Use</h1>
 <h4>Just follow 5 simple steps</h4>
@@ -21,7 +17,7 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
   <li>Run <strong>YOLO.py</strong> and MAGIC! :dizzy:</li>
   <li>Output images will be saved in <strong>output/</strong> directory. :metal:</li>
 </ul>
->For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.
+For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.
 
 <h1>References :page_facing_up:</h1>
 The ideas presented in this repo came primarily from the two YOLO papers. The implementation here also took significant inspiration and used many components from <strong>Allan Zelener</strong>'s github repository. The pretrained weights used in this exercise came from the official YOLO website.
