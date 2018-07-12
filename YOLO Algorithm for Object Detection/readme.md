@@ -3,23 +3,16 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
 <h4>All the references and licenses are included in end of this page</h4>
 
 <h1>How to Use</h1>
-<h4>Just follow 5 simple steps:</h4>
-```bash
-wget http://pjreddie.com/media/files/yolo.weights
-wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolo.cfg
-./yad2k.py yolo.cfg yolo.weights model_data/yolo.h5
-./test_yolo.py model_data/yolo.h5  # output in images/out/
-```
-`./test_yolo.py --help`
+>Just follow 5 simple steps:
 <ul type='square'>
   `code`
   <li>Download Darknet model cfg and weights from the official YOLO website and convert the Darknet YOLO_v2 model to a Keras model. This is by far the lengthiest step. :weary:</li>
-  <li>Save the model in `./test_yolo.py --help` directory. :sparkles:</li>
-  <li>Put all your images you want to test in `images` directory. :camera:</li>
-  <li>Run `YOLO.py` and MAGIC! :dizzy:</li>
-  <li>Output images will be saved in `output` directory. :metal:</li>
+  <li>Save the model in <strong>model_data/</strong> directory. :sparkles:</li>
+  <li>Put all your images you want to test in <strong>images/</strong> directory. :camera:</li>
+  <li>Run <strong>YOLO.py</strong> and MAGIC! :dizzy:</li>
+  <li>Output images will be saved in <strong>output/</strong> directory. :metal:</li>
 </ul>
-<h4>For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.</h4>
+>For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.
 
 <h1>References :page_facing_up:</h1>
 The ideas presented in this repo came primarily from the two YOLO papers. The implementation here also took significant inspiration and used many components from <strong>Allan Zelener</strong>'s github repository. The pretrained weights used in this exercise came from the official YOLO website.
