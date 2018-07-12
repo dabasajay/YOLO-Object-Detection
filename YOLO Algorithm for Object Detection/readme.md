@@ -3,9 +3,8 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
 <h4>All the references and licenses are included in end of this page</h4>
 
 <h1>How to Use</h1>
-> Just follow 5 simple steps:
+<h4>Just follow 5 simple steps</h4>
 <ul type='square'>
-  `code`
   <li>Download Darknet model cfg and weights from the official YOLO website and convert the Darknet YOLO_v2 model to a Keras model. This is by far the lengthiest step. :weary:</li>
   <li>Save the model in <strong>model_data/</strong> directory. :sparkles:</li>
   <li>Put all your images you want to test in <strong>images/</strong> directory. :camera:</li>
