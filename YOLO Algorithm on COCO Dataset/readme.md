@@ -1,3 +1,2 @@
-# YOLO Algorithm on COCO Dataset
-
-#### In this project, I use YOLO Algorithm trained on COCO Dataset for car detection and then generalizes it to other classes prediction, including my own face :)
+<h1>YOLO Algorithm on COCO Dataset</h1>
+In this project, I use YOLO Algorithm trained on COCO Dataset for object detection. I use pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>site</a>
