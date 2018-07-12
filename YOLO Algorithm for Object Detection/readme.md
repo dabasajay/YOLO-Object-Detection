@@ -4,7 +4,8 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
 <p align="center">
 	<table>
   	<tr>
-  		<img src="output/Alexander McFeron.jpg?raw=true" height="200px" width="200px" title="Alexander McFeron" alt="Alexander McFeron"><img src="output/Steffen Muldbjerg.jpg?raw=true" height="200px" width="200px" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
+  		<img src="output/Alexander McFeron.jpg?raw=true" height="200px" width="50%" title="Alexander McFeron" alt="Alexander McFeron">
+		<img src="output/Steffen Muldbjerg.jpg?raw=true" height="200px" width="50%" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
   	</tr>
 </table>
 </p>
@@ -20,7 +21,7 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
   <li>Run <strong>YOLO.py</strong> and MAGIC! :dizzy:</li>
   <li>Output images will be saved in <strong>output/</strong> directory. :metal:</li>
 </ul>
-> For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.
+>For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.
 
 <h1>References :page_facing_up:</h1>
 The ideas presented in this repo came primarily from the two YOLO papers. The implementation here also took significant inspiration and used many components from <strong>Allan Zelener</strong>'s github repository. The pretrained weights used in this exercise came from the official YOLO website.
