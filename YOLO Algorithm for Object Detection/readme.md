@@ -2,8 +2,12 @@
 In this project, I use YOLO Algorithm trained on COCO Dataset for object detection. I use pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>site</a>.
 
 <p align="center">
-  <img src="output/Alexander McFeron.jpg?raw=true" width="50%" title="Alexander McFeron" alt="Alexander McFeron">
-  <img src="output/Steffen Muldbjerg.jpg.jpg?raw=true" width="50%" title="Steffen Muldbjerg.jpg" alt="Steffen Muldbjerg.jpg">
+	<table>
+  	<tr>
+  		<img src="output/Alexander McFeron.jpg?raw=true" height="400px" width="400px" title="Alexander McFeron" alt="Alexander McFeron">
+  		<img src="output/Steffen Muldbjerg.jpg?raw=true" height="400px" width="400px" title="Steffen Muldbjerg" alt="Steffen Muldbjerg">
+  	</tr>
+</table>
 </p>
 
 >All the references and licenses are included in end of this page
