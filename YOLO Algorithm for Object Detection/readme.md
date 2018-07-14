@@ -1,5 +1,5 @@
 <h1>YOLO Algorithm for Object Detection</h1>
-In this project, I use YOLO Algorithm trained on COCO Dataset for object detection. I use pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>site</a>.
+In this project, I use YOLO Algorithm trained on COCO Dataset for object detection. I use pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>website</a>.
 
 <p align="center">
   <strong>Examples</strong>
@@ -17,7 +17,7 @@ All the references and licenses are included at end of this page
 Just follow 5 simple steps :
 <br>
 <ul type='square'>
-  <li>Download Darknet model cfg and weights from the official YOLO website and convert the Darknet YOLO_v2 model to a Keras model. This is by far the lengthiest step. :weary:</li>
+  <li>Download Darknet model cfg and weights from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>website</a>. and convert the Darknet YOLO_v2 model to a Keras model. This is by far the lengthiest step. :weary: <strong>Don't<strong> worry, if you don't wanna do it yourself, just email me at se.mailforwork@gmail.com and I'll give you the download link. :relaxed:</li>
   <li>Save the model in <strong>model_data/</strong> directory. :sparkles:</li>
   <li>Put all your images you want to test in <strong>images/</strong> directory. :camera:</li>
   <li>Run <strong>YOLO.py</strong> and MAGIC! :dizzy:</li>
