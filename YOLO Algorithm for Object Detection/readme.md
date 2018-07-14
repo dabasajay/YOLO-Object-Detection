@@ -26,7 +26,7 @@ Just follow 5 simple steps :
 For more information, visit <a href='https://github.com/allanzelener/YAD2K'>here</a>.
 
 <h1>References :page_facing_up:</h1>
-The ideas presented in this repo came primarily from the two YOLO papers. The implementation here also took significant inspiration and used many components from <strong>Allan Zelener</strong>'s github repository. The pretrained weights used in this exercise came from the official YOLO website.
+The ideas presented in this repo came primarily from the two YOLO papers. The implementation here also took significant inspiration and used many components from <strong>Allan Zelener</strong>'s github repository. The pretrained weights used in this project came from the official YOLO website.
 <ul type='square'>
   <li><strong>Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi - </strong><a href='https://arxiv.org/abs/1506.02640'>You Only Look Once: Unified, Real-Time Object Detection (2015)</a></li>
   <li><strong>Joseph Redmon, Ali Farhadi - </strong><a href='https://arxiv.org/abs/1612.08242'>YOLO9000: Better, Faster, Stronger (2016)</a></li>
