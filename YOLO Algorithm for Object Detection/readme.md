@@ -11,7 +11,7 @@ In this project, I use YOLO Algorithm trained on COCO Dataset for object detecti
 </p>
 
 
-All the references and licenses are included in end of this page
+All the references and licenses are included at end of this page
 
 <h1>How to Use</h1>
 Just follow 5 simple steps :
