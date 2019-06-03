@@ -60,6 +60,8 @@ Just follow 6 simple steps :
 **Note:** All images are resized to 608x608 to feed into YOLOv2 model
 6. Run `YOLO.py` and *MAGIC!* Output images will be saved in `output/` directory
 
+**If you face any problem converting keras model or anything:** email me at *se.dabasajay@gmail.com*
+
 **Acknowledgement:** Script `yad2k.py` for conversion of darknet to keras model is taken from <strong>Allan Zelener - </strong><a href='https://github.com/allanzelener/YAD2K'>YAD2K: Yet Another Darknet 2 Keras</a> github repo and modified a little bit.
 
 ## Configurations (config.py)
