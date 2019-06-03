@@ -21,7 +21,7 @@ In this project, I used YOLO algorithm trained on COCO dataset for object detect
 Recommended System Requirements to run model.
 
 <ul type="square">
-	<li>A good CPU and a GPU with atleast 8GB memory</li>
+	<li>A good CPU and a GPU with atleast 4GB memory</li>
 	<li>Atleast 8GB of RAM</li>
 	<li>Active internet connection to download YOLOv2 weights and cfg file.</li>
 </ul>
@@ -35,6 +35,12 @@ Required Libraries for Python along with their version numbers used while making
 	<li>Keras - 2.2.4</li>
 	<li>PIL - 4.3.0</li>
 </ul>
+
+## Some YOLOv2 Model information
+
+1. Total params: 50,983,561
+2. Trainable params: 50,962,889
+3. Non-trainable params: 20,672
 
 ## How to Use
 
@@ -51,7 +57,7 @@ Just follow 6 simple steps :
 3. Review `config.py` for paths and other configurations (explained below)
 4. Run `yad2k.py` to convert YOLOv2 model from darknet to keras model which will be saved in `model_data/` folder.
 5. Put all your images you want to test in `images/` directory.<br>
-**Note:** All images are resized to 608x608 to feed into Yolov2 model
+**Note:** All images are resized to 608x608 to feed into YOLOv2 model
 6. Run `YOLO.py` and *MAGIC!* Output images will be saved in `output/` directory
 
 **Acknowledgement:** Script `yad2k.py` for conversion of darknet to keras model is taken from <strong>Allan Zelener - </strong><a href='https://github.com/allanzelener/YAD2K'>YAD2K: Yet Another Darknet 2 Keras</a> github repo and modified a little bit.
