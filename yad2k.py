@@ -45,6 +45,8 @@ def _main():
     assert config_path.endswith('.cfg'), '{} is not a .cfg file'.format(config_path)
     assert weights_path.endswith('.weights'), '{} is not a .weights file'.format(weights_path)
     assert output_path.endswith('.hdf5'), 'output path {} is not a .hdf5 file'.format(output_path)
+    print('Config file at {}'.format(config_path))
+    print('Weights file at {}'.format(weights_path))
     output_root = os.path.splitext(output_path)[0]
     # Load weights and config.
     print('Loading weights.')
@@ -207,6 +209,9 @@ def _main():
         elif section.startswith('region'):
             with open('{}_anchors.txt'.format(output_root), 'w') as f:
                 print(cfg_parser[section]['anchors'], file=f)
+        # If section is net_0
+        elif section.startswith('net_0'):
+            continue
         # If section is not recognized
         else:
             raise ValueError('Unsupported section header type: {}'.format(section))
