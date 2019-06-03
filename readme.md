@@ -38,21 +38,23 @@ Required Libraries for Python along with their version numbers used while making
 
 ## How to Use
 
-Just follow 5 simple steps :
+Just follow 6 simple steps :
 
-1. Download Darknet model cfg and weights from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>website</a> and put them in `model_data/` folder.<br>
+1. Clone repository to preserve directory structure<br>
+`git clone https://github.com/dabasajay/YOLO-Object-Detection.git`
+2. Download Darknet model cfg and weights from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>website</a> and put them in `model_data/` folder.<br>
 **Direct terminal commands**<br>
 `wget https://pjreddie.com/media/files/yolov2.weights`<br>
 `mv yolov2.weights "model_data/yolov2.weights"`<br>
 `wget https://github.com/pjreddie/darknet/raw/master/cfg/yolov2.cfg`<br>
 `mv yolov2.cfg "model_data/yolov2.cfg"`
-2. Review `config.py` for paths and other configurations (explained below)
-3. Run `yad2k.py` to convert YOLOv2 model from darknet to keras model which will be saved in `model_data/` folder.
-4. Put all your images you want to test in `images/` directory.<br>
-**Note**: All images are resized to 608x608 to feed to Yolov2 model
-5. Run `YOLO.py` and MAGIC! Output images will be saved in `output/` directory
+3. Review `config.py` for paths and other configurations (explained below)
+4. Run `yad2k.py` to convert YOLOv2 model from darknet to keras model which will be saved in `model_data/` folder.
+5. Put all your images you want to test in `images/` directory.<br>
+**Note:** All images are resized to 608x608 to feed into Yolov2 model
+6. Run `YOLO.py` and *MAGIC!* Output images will be saved in `output/` directory
 
-**Acknowledgement** Script `yad2k.py` for conversion of darknet to keras model is copied from <strong>Allan Zelener - </strong><a href='https://github.com/allanzelener/YAD2K'>YAD2K: Yet Another Darknet 2 Keras</a> github repo and modified a little bit.
+**Acknowledgement:** Script `yad2k.py` for conversion of darknet to keras model is taken from <strong>Allan Zelener - </strong><a href='https://github.com/allanzelener/YAD2K'>YAD2K: Yet Another Darknet 2 Keras</a> github repo and modified a little bit.
 
 ## Configurations (config.py)
 
@@ -63,7 +65,7 @@ Just follow 5 simple steps :
 5. `classes_path` :- File path of coco_classes.txt
 6. `test_path` :- Folder path containing images for testing model
 7. `output_path` :- Folder path containing output of images from test_path
-8. `score_threshold` :- Score(Confidence of predicted class) threshold. Lower value leads to more classes predictions but less confident about predictions, higher leads to less classes predictions but more confident about predictions.
+8. `score_threshold` :- Score(Confidence of predicted class) threshold. Lower value leads to more class predictions but less confident about predictions, higher leads to less class predictions but more confident about predictions.
 9. `iou_threshold` :- Intersection over union threshold.
 10. `random_seed` :- Random seed for reproducibility of results
 11. `font_path` :- File path of font to write on bounding boxes in image
