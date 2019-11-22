@@ -3,7 +3,7 @@
 [![Issues](https://img.shields.io/github/issues/dabasajay/YOLO-Object-Detection.svg?color=%231155cc)](https://github.com/dabasajay/YOLO-Object-Detection/issues)
 [![Forks](https://img.shields.io/github/forks/dabasajay/YOLO-Object-Detection.svg?color=%231155cc)](https://github.com/dabasajay/YOLO-Object-Detection/network)
 [![Stars](https://img.shields.io/github/stars/dabasajay/YOLO-Object-Detection.svg?color=%231155cc)](https://github.com/dabasajay/YOLO-Object-Detection/stargazers)
-[![Ajay Dabas](https://img.shields.io/badge/Ajay-Dabas-ff0000.svg)](https://dabasajay.github.io/)
+[![Ajay Dabas](https://img.shields.io/badge/Ajay-Dabas-825ee4.svg)](https://dabasajay.github.io/)
 
 In this project, I used YOLO algorithm trained on COCO dataset for object detection task. I used pretrained Yolov2 model which can downloaded from the official YOLO <a href='https://pjreddie.com/darknet/yolo/'>website</a>.
 
